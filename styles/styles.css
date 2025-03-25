@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background-color: #1F2937;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+
+.nav-container a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+  align-items: flex-end;
+  gap: 20px;
+}
