@@ -103,7 +103,7 @@ body {
 
 .info-header {
   position: relative;
-  top: 24px;
+  top: 64px;
   margin-top: 8%;
   margin-bottom: 3%;
   text-align: center;
@@ -114,10 +114,12 @@ body {
 }
 
 .info-container {
+  margin-top: 6%;
+  padding-bottom: 6%;
   background-color: white;
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 42px;
 }
 
 .multi-wrapper {
@@ -135,6 +137,44 @@ body {
   width: 100%;
   border: 3px solid #3882f6;
   border-radius: 10px;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+  background-color: #E5E7EB;
+  padding-top: 24px;
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  max-width: 800px;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.quote-text {
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  background-color: #E5E7EB;
+}
+
+.quote-signature {
+  position: relative;
+  bottom: 36px;
+  text-align: right;
+  font-size: 24px;
 }
 
 
