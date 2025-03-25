@@ -13,6 +13,13 @@ body {
   background-color: #1F2937;
 }
 
+.content-wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* NAVIGATION AND LOGO HEADERS */
+
 .logo {
   color: #F9FAF8;
   font-size: 24px;
@@ -26,7 +33,7 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 40px;
 }
 
 
@@ -35,16 +42,49 @@ body {
   color: #E5E7EB;
   text-decoration: none;
   align-items: flex-end;
-  gap: 20px;
 }
+
+/* HERO SECTION - HERO TEXT, SUBTEXT AND SIGN-UP BUTTON */
 
 .hero-text {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+  margin-bottom: 6px;
 }
 
 .hero-subtext {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.hero-signup {
+  font-size: 18px;
+  color: white;
+  background-color: #3882F6;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+}
+
+.hero-container {
+  display: flex;
+  margin-top: 6%;
+}
+
+/* HERO SECTION - IMAGE PLACEHOLDER */
+
+.img-placeholder {
+  color: #f8f9fa;
+  text-align: center;
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 75%;
+  background-color: #4b535a;
+  text-align: center;
 }

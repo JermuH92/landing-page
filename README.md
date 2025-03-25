@@ -15,11 +15,11 @@ After the project I have solidified my CSS skills on the following:
 
 - Understand CSS Cascade, specificity and inheritance when combining multiple selectors and how it effects certain properties.
 
-- Utilize Chrome Dev Tools and google to troubleshoot complex layout issues.
+- Utilize Chrome Dev Tools and Google to troubleshoot complex layout issues.
 
 - Use box models block and inline elements, breaking documents normal flow when necessary.
 
-- Use Flexbox techniques when needed and properly separate content in their respective containers using divs.
+- Focus on flexbox techniques when needed and properly separate content in their respective containers using divs.
 
 - Structure the page utilizing semantic HTML tags to provide a more accessible and user-friendly experience and demonstrate initiative to learn aspects of web development outside the imminent scope of the curriculum.
 
