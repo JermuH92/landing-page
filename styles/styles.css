@@ -177,5 +177,53 @@ body {
   font-size: 24px;
 }
 
+/* CALL TO ACTION SECTION */
+
+.call-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  padding-top: 6%;
+  background-color: white;
+}
+
+
+.call-to-action-container {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-radius: 10px;
+  max-width: 1400px;
+  gap: 160px;
+}
+
+.call-header {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.call-subtext {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.call-signup {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  background-color: inherit;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
 
 
